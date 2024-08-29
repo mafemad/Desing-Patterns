@@ -1,6 +1,6 @@
-package Strategy.frete;
+package strategy.frete;
 
-import Strategy.Produto;
+import strategy.Produto;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

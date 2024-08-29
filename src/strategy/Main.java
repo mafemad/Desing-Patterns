@@ -1,8 +1,6 @@
-package Strategy;
+package strategy;
 
-import Strategy.frete.Agendado;
-import Strategy.frete.Convencional;
-import Strategy.frete.Expresso;
+import strategy.frete.Agendado;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

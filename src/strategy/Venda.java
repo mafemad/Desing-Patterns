@@ -1,9 +1,8 @@
-package Strategy;
+package strategy;
 
-import Strategy.frete.Frete;
+import strategy.frete.Frete;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 
 public class Venda {
     private int codigo;
