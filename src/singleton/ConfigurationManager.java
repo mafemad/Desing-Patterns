@@ -7,23 +7,18 @@ public class ConfigurationManager {
     private String databaseUrl;
     private String apiKey;
 
-    // Construtor privado para impedir que a classe seja instanciada externamente
     private ConfigurationManager() {
-        // Valores de exemplo
         this.databaseUrl = "jdbc:mysql://localhost:3306/mydb";
         this.apiKey = "ABC123";
     }
 
-    // Método público estático que retorna a única instância
     public static ConfigurationManager getInstance() {
         if (instance == null) {
-            // Cria a instância apenas se ela ainda não existir
             instance = new ConfigurationManager();
         }
         return instance;
     }
 
-    // Métodos para acessar ou modificar as configurações
     public String getDatabaseUrl() {
         return databaseUrl;
     }
