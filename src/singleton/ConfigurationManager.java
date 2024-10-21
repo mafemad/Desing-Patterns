@@ -2,10 +2,8 @@ package singleton;
 
 public class ConfigurationManager {
 
-    // Atributo estático que guarda a única instância da classe
     private static ConfigurationManager instance;
 
-    // Variáveis de configuração (exemplo)
     private String databaseUrl;
     private String apiKey;
 
